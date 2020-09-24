@@ -1,3 +1,5 @@
+package nonGUI;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -5,7 +7,7 @@ import java.net.InetAddress;
 import java.net.Socket;
 
 
-// Client is an abstract class that models a chat client. Each client uses 2 threads: one to send messages to
+// nonGUI.Client is an abstract class that models a chat client. Each client uses 2 threads: one to send messages to
 // the server and one thread to receive messages
 
 public abstract class Client {

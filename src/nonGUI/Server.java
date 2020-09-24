@@ -1,3 +1,5 @@
+package nonGUI;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -7,7 +9,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.stream.Collectors;
 
-// Server is a class that models a chat server. A server uses a thread for each client. A server contains a
+// nonGUI.Server is a class that models a chat server. A server uses a thread for each client. A server contains a
 // HashMap of all threads. The server uses the threads to receive client messages. When a message is received
 // the server sends this same message back to all client threads.
 
